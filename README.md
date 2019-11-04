@@ -2,7 +2,7 @@
 # If you're not french you have to translate everything, have fun ^^ 
 ESX Ready
 
-![screen shot](https://cdn.discordapp.com/attachments/625260827213168650/640971619086368778/unknown.png)
+![screen shot](https://streamable.com/jzziy)
 ## Feature
   - Buy clothes
   - Save, rename, delete ouftit
