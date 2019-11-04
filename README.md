@@ -1,5 +1,5 @@
 # esx_prwClotheShop
-
+# If you're not french you have to translate everything, have fun ^^ 
 ESX Ready
 
 ![screen shot](https://cdn.discordapp.com/attachments/625260827213168650/640971619086368778/unknown.png)
@@ -19,7 +19,7 @@ Drag and drop my script
 Start it
 
 ## Usage
-  - K for the accessories menu
+  - K to the accessories menu
   - E to open the clotheshop menu
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
