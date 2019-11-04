@@ -5,16 +5,22 @@
 -- HeidiSQL Version:             10.2.0.5599
 -- --------------------------------------------------------
 
-CREATE TABLE IF NOT EXISTS `user_accessories` (
+CREATE TABLE IF NOT EXISTS `user_contacts` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `identifier` varchar(255) COLLATE utf8mb4_bin NOT NULL,
-  `mask` varchar(255) COLLATE utf8mb4_bin NOT NULL,
-  `label` varchar(50) COLLATE utf8mb4_bin DEFAULT 'Masque',
-  `type` varchar(50) COLLATE utf8mb4_bin DEFAULT NULL,
-  `index` int(11) DEFAULT NULL,
+  `name` varchar(255) COLLATE utf8mb4_bin NOT NULL,
+  `number` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=33 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
+
+CREATE TABLE IF NOT EXISTS `user_tenue` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `identifier` varchar(255) COLLATE utf8mb4_bin DEFAULT NULL,
+  `tenue` longtext COLLATE utf8mb4_bin NOT NULL,
+  `label` varchar(20) COLLATE utf8mb4_bin DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=47 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 -- Les données exportées n'étaient pas sélectionnées.
 
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
