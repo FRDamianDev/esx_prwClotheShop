@@ -9,7 +9,6 @@ CREATE TABLE IF NOT EXISTS `user_accessories` (
 ) ENGINE=MyISAM AUTO_INCREMENT=33 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 
 -- Les données exportées n'étaient pas sélectionnées.
--- Listage de la structure de la table lscity. user_tenue
 CREATE TABLE IF NOT EXISTS `user_tenue` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `identifier` varchar(255) COLLATE utf8mb4_bin DEFAULT NULL,
